@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.BackGround {
+    background-image: url(Pivtures/194567.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.Main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 180px;
+}
+
+.Container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.Card {
+    width: 270px;
+    height: 330px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+    /* Add transition for smooth flip effect */
+}
+
+.Front,
+.Back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.Front {
+    background-color: rgb(147, 1, 1);
+    transform: rotateY(0deg);
+}
+
+.Back {
+    background-color: #27213C;
+    color: white;
+    transform: rotateY(180deg);
+
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    font-size: 30px;
+    cursor: pointer;
+    color: wheat;
+}
+
+
+.Container:hover>.Card {
+    transform: rotateY(180deg);
+}
+
+.Button1 {
+    background-color: wheat;
+    padding: 17px;
+    font-family: 'Russo One', sans-serif;
+    color: crimson;
+    border: none;
+    cursor: pointer;
+}

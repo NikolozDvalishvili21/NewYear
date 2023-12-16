@@ -1,0 +1,150 @@
+* {
+    padding: 5px;
+}
+
+.Container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.Container2 {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.Pic {
+    background-image: url(Pivtures/IMG_5794.jpg);
+    background-size: 100%;
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+}
+
+.Pic2 {
+    background-image: url(Pivtures/IMG_5799.jpg);
+    background-size: 100%;
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+}
+
+.Pic3 {
+    background-image: url(Pivtures/IMG_5795.jpg);
+    background-size: 100%;
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+}
+
+.Pic4 {
+    background-image: url(Pivtures/IMG_5800.jpg);
+    background-size: 100%;
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+}
+
+.Pic5 {
+    background-image: url(Pivtures/IMG_5802.jpg);
+    background-size: 100%;
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+}
+
+.Pic6 {
+    background-image: url(Pivtures/IMG_5806.jpg);
+    background-size: 100%;
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+}
+
+.Pic7 {
+    background-image: url(Pivtures/IMG_5811.jpg);
+    background-size: 100%;
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+}
+
+.Pic8 {
+    background-image: url(Pivtures/IMG_5813.jpg);
+    background-size: 100%;
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+}
+
+.Pic9 {
+    background-image: url(Pivtures/IMG_5815.jpg);
+    background-size: 100%;
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+}
+
+.Pic10 {
+    background-image: url(Pivtures/IMG_5802.jpg);
+    background-size: 100%;
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+}
+
+.Butt {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background-color: crimson;
+    color: white;
+    font-family: 'Russo One', sans-serif;
+    cursor: pointer;
+    transition: 0.3s ease;
+    border: 2px solid black;
+    padding: 9px;
+}
+
+button:hover {
+    transition: 0.3s ease;
+    background-color: white;
+    color: crimson;
+}
+
+.Window {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.Window2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 550px;
+    background-color: crimson;
+}
+
+h1 {
+    text-align: center;
+    color: crimson;
+    transition: 0.3s;
+}
+
+h1:hover {
+    transition: 0.3s;
+    color: white;
+}
+
+.Link {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
